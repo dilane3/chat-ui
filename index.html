@@ -17,8 +17,9 @@
       
       <div class="header-profil">
         <span class="bi bi-bell"></span>
-        <img src="./images/profil.jpg" alt="profil">
-        <p>Dilane</p>
+        <img src="./images/montagne.jpg" alt="profil">
+        <p>Ghislain</p>
+        <span class="bi bi-chevron-down"></span>
       </div>
     </header>
     <section class="content">
@@ -37,13 +38,13 @@
       <section class="contacts">
         <div class="contacts-search">
           <span class="bi bi-search"></span>
-          <input type="text" placeholder="search for a contact">
+          <input type="text" placeholder="search in dialogues...">
           <div class="btn-search">
             <span class="bi bi-plus"></span>
           </div>
         </div>
         <div class="contacts-list">
-          <article class="contact active">
+          <article class="contact">
             <img src="./images/profil.jpg" alt="profil-photo">
 
             <div class="contact-info">
@@ -52,14 +53,14 @@
                 <span class="contact-date">12:36</span>
               </div>
               <div class="contact-info--bottom">
-                <span class="contact-last-message">Je suis au stade</span>
+                <span class="contact-last-message">I'm playing the game</span>
                 <span class="contact-badge"></span>
               </div>
             </div>
           </article>
 
-          <article class="contact">
-            <img src="./images/dilane.jpg" alt="profil-photo">
+          <article class="contact active">
+            <img src="./images/canette.jpg" alt="profil-photo">
 
             <div class="contact-info">
               <div class="contact-info--top">
@@ -67,14 +68,14 @@
                 <span class="contact-date">12:40</span>
               </div>
               <div class="contact-info--bottom">
-                <span class="contact-last-message">J'ai faim</span>
+                <span class="contact-last-message">It's about programming.  I want to... </span>
                 <span class="contact-badge"></span>
               </div>
             </div>
           </article>
 
           <article class="contact">
-            <img src="./images/image.jpg" alt="profil-photo">
+            <img src="./images/femme-blanche.jpg" alt="profil-photo">
 
             <div class="contact-info">
               <div class="contact-info--top">
@@ -82,15 +83,209 @@
                 <span class="contact-date">13:56</span>
               </div>
               <div class="contact-info--bottom">
-                <span class="contact-last-message">Je dors moi deja</span>
+                <span class="contact-last-message">I'm on the bed.</span>
+                <span class="contact-badge"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="contact">
+            <img src="./images/femme-noir.jpg" alt="profil-photo">
+
+            <div class="contact-info">
+              <div class="contact-info--top">
+                <span class="contact-name">Corine</span>
+                <span class="contact-date">16:36</span>
+              </div>
+              <div class="contact-info--bottom">
+                <span class="contact-last-message">Ok cc.</span>
+                <span class="contact-badge"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="contact">
+            <img src="./images/falaise.jpg" alt="profil-photo">
+
+            <div class="contact-info">
+              <div class="contact-info--top">
+                <span class="contact-name">Dan</span>
+                <span class="contact-date">16:41</span>
+              </div>
+              <div class="contact-info--bottom">
+                <span class="contact-last-message">Guy, it's high</span>
                 <span class="contact-badge"></span>
               </div>
             </div>
           </article>
         </div>
       </section>
-      <section class="conversation"></section>
-      <aside class="conversation-info"></aside>
+      <section class="conversation">
+        <div class="conversation-header">
+          <div class="conversation-contact">
+            <img src="./images/canette.jpg" alt="conv-profil">
+
+            <div class="conversation-contact-info">
+              <span class="conversation-name">Michel</span>
+              <span class="conversation-online">online</span>
+            </div>
+          </div>
+
+          <div class="conversation-control">
+            <span class="bi bi-telephone"></span>
+            <span class="bi bi-camera-video"></span>
+            <span class="bi bi-three-dots-vertical"></span>
+          </div>
+        </div>
+        <section class="conversation-content">
+
+          <section class="messages">
+            <article class="message-container">
+              <img src="./images/canette.jpg" alt="message-img">
+
+              <div class="message">
+                <span>Hello Ghislain, how are you ?</span>
+                <span>12:36</span>
+              </div>
+            </article>
+
+            <article class="message-container sended">
+              <img src="./images/montagne.jpg" alt="message-img">
+
+              <div class="message">
+                <span>I'm good, what about you my friend ?</span>
+                <span>12:40</span>
+              </div>
+            </article>
+
+            <article class="message-container">
+              <img src="./images/canette.jpg" alt="message-img">
+
+              <div class="message">
+                <span>Good, I'm fine too</span>
+                <span>12:40</span>
+              </div>
+            </article>
+
+            <article class="message-container">
+              <img src="./images/canette.jpg" alt="message-img">
+
+              <div class="message">
+                <span>Please, can you help me ?</span>
+                <span>12:41</span>
+              </div>
+            </article>
+
+            <article class="message-container sended">
+              <img src="./images/montagne.jpg" alt="message-img">
+
+              <div class="message">
+                <span>for sure...</span>
+                <span>12:49</span>
+              </div>
+            </article>
+
+            <article class="message-container sended">
+              <img src="./images/montagne.jpg" alt="message-img">
+
+              <div class="message">
+                <span>How can I help you ?</span>
+                <span>12:50</span>
+              </div>
+            </article>
+
+            <article class="message-container">
+              <img src="./images/canette.jpg" alt="message-img">
+
+              <div class="message">
+                <span>
+                  It's about programming. <br>
+                  I want to learn to code with Flutter and be able to create nice mobile application for
+                  android platform and share my app to Google Play store. <br>
+                  So can you teach me how to code please ?
+                </span>
+                <span>12:55</span>
+              </div>
+            </article>
+          </section>
+
+          <div class="conversation-editor">
+            <div class="btn-file">
+              <span class="bi bi-paperclip"></span>
+            </div>
+            <input type="text" placeholder="write a message">
+            <div class="btn-send">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+              </svg>
+            </div>
+          </div>
+        </section>
+      </section>
+      <aside class="conversation-info">
+        <div class="conversation-info--header">
+          <span>User Info</span>
+          <span class="bi bi-x"></span>
+        </div>
+
+        <div class="conversation-info--profil">
+          <img src="./images/canette.jpg" alt="profil-photo">
+
+          <div>
+            <span class="name">Michel</span>
+            <span class="country">Cameroon, Yaounde</span>
+          </div>
+        </div>
+
+        <div class="conversation-info--items">
+          <header class="conversation-info--nav">
+            <span>Options</span>
+            <span class="active">Activity</span>
+            <span>User Info</span>
+          </header>
+
+          <section class="conversation-info--content">
+            <div class="info-items">
+              <div class="info-item">
+                <span class="bi bi-link"></span>
+                <span>0 shared links</span>
+              </div>
+
+              <div class="info-item">
+                <span class="bi bi-file-earmark"></span>
+                <span>0 file</span>
+              </div>
+
+              <div class="info-item">
+                <span class="bi bi-headphones"></span>
+                <span>0 audio files</span>
+              </div>
+
+              <div class="info-item">
+                <span class="bi bi-mic"></span>
+                <span>0 voice messages</span>
+              </div>
+            </div>
+
+            <div class="files">
+              <div class="files-header">
+                <span>Shared images</span>
+                <span class="bi bi-chevron-down"></span>
+              </div>
+
+              <div class="files-content">
+                <img src="./images/image.jpg" alt="file">
+                <img src="./images/macabo.jpeg" alt="file">
+                <img src="./images/icon.png" alt="file">
+                <img src="./images/Merry Christmass(1).png" alt="file">
+                <img src="./images/images.png" alt="file">
+                <img src="./images/Merry Christmass(1).png" alt="file">
+                <img src="./images/images.png" alt="file">
+              </div>
+            </div>
+          </section>
+        </div>
+      </aside>
     </section>
   </main>
   
