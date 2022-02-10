@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat UI</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <main class="container">
+    <header class="header">
+      <span class="logo">Chatico</span>
+      
+      <div class="header-profil">
+        <span class="bi bi-bell"></span>
+        <img src="./images/profil.jpg" alt="profil">
+        <p>Dilane</p>
+      </div>
+    </header>
+    <section class="content">
+      <nav class="navigation">
+        <div>
+          <span class="bi bi-house-fill"></span>
+          <span class="bi bi-chat-fill active"></span>
+          <span class="bi bi-person-square"></span>
+          <span class="bi bi-gear-fill"></span>
+          <span class="bi bi-power"></span>
+        </div>
+        <div>
+          <span class="bi bi-info-circle-fill"></span>
+        </div>
+      </nav>
+      <section class="contacts">
+        <div class="contacts-search">
+          <span class="bi bi-search"></span>
+          <input type="text" placeholder="search for a contact">
+          <div class="btn-search">
+            <span class="bi bi-plus"></span>
+          </div>
+        </div>
+        <div class="contacts-list">
+          <article class="contact active">
+            <img src="./images/profil.jpg" alt="profil-photo">
+
+            <div class="contact-info">
+              <div class="contact-info--top">
+                <span class="contact-name">Dilane</span>
+                <span class="contact-date">12:36</span>
+              </div>
+              <div class="contact-info--bottom">
+                <span class="contact-last-message">Je suis au stade</span>
+                <span class="contact-badge"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="contact">
+            <img src="./images/dilane.jpg" alt="profil-photo">
+
+            <div class="contact-info">
+              <div class="contact-info--top">
+                <span class="contact-name">Michel</span>
+                <span class="contact-date">12:40</span>
+              </div>
+              <div class="contact-info--bottom">
+                <span class="contact-last-message">J'ai faim</span>
+                <span class="contact-badge"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="contact">
+            <img src="./images/image.jpg" alt="profil-photo">
+
+            <div class="contact-info">
+              <div class="contact-info--top">
+                <span class="contact-name">Nina</span>
+                <span class="contact-date">13:56</span>
+              </div>
+              <div class="contact-info--bottom">
+                <span class="contact-last-message">Je dors moi deja</span>
+                <span class="contact-badge"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="conversation"></section>
+      <aside class="conversation-info"></aside>
+    </section>
+  </main>
+  
+</body>
+</html>
